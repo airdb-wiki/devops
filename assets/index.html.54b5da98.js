@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-1467526f","path":"/cicd/","title":"CICD","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1657480831000,"contributors":[{"name":"deancn","email":"dean@airdb.com","commits":2}]},"filePathRelative":"cicd/README.md"}');export{e as data};
