@@ -7,27 +7,8 @@ export const navbarEn: NavbarConfig = [
     link: '/guide/',
   },
   {
-    text: 'CI',
-    children: [
-      {
-        text: 'git',
-        children: [
-          { text: 'CLI', link: '/reference/cli.html', },
-        ],
-      },
-      {
-        text: 'gitlab',
-        children: [
-          { text: 'CLI', link: '/reference/cli.html', },
-        ],
-      },
-      {
-        text: 'github',
-        children: [
-          { text: 'CaddyServer', link: '/reference/cli.html', },
-        ],
-      },
-    ],
+    text: 'cicd',
+    link: '/cicd/',
   },
   {
     text: 'CD',

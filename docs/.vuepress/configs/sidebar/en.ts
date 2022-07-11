@@ -20,24 +20,12 @@ export const sidebarEn: SidebarConfig = {
       ],
     },
   ],
-  '/advanced/': [
+  '/cicd/': [
     {
-      text: 'Advanced',
+      text: 'cicd',
       children: [
-        '/advanced/architecture.md',
-        '/advanced/plugin.md',
-        '/advanced/theme.md',
-      ],
-    },
-    {
-      text: 'Cookbook',
-      children: [
-        '/advanced/cookbook/README.md',
-        '/advanced/cookbook/usage-of-client-config.md',
-        '/advanced/cookbook/adding-extra-pages.md',
-        '/advanced/cookbook/making-a-theme-extendable.md',
-        '/advanced/cookbook/passing-data-to-client-code.md',
-        '/advanced/cookbook/markdown-and-vue-sfc.md',
+        '/cicd/README.md',
+        '/cicd/github.md',
       ],
     },
   ],

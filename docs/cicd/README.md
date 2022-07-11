@@ -1,5 +1,45 @@
 # CICD
 
+# Environment variables
+
+RunEnv
+
+| Env | Description |
+| --- | --- |
+| local | Run services on local PC |
+| dev | Run services on servers, but not serve traffic|
+| live | Run services on servers,  but serve users' traffic|
+
+RunAZ: Availability zones (AZs)
+
+| AZ | Description |
+| --- | --- |
+| sg | Singapore |
+| sh | Shanghai |
+| de | Germany |
+
+ServerType
+| serverType | Description |
+| --- | --- |
+| physical | physical servers |
+| vm | virtural servers |
+
+RunContext
+| RunContext | Description |
+| --- | --- |
+| docker | Run Service with docker |
+| systemd | Run services with systemctl |
+
+DeployPolicy
+
+| Policy | Description |
+| --- | --- |
+| blue | Blue strategy serves about at 0-20% traffic. |
+| green | Green strategy serves about at 20-50% traffic. |
+| red | Red strategy serves about at 50-100% traffic.|
+| black | Black strategy is for hot back, can serves all(100%) traffic.|
+
+
 git
 
 github
