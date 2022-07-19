@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-832da6a8","path":"/sre.html","title":"SRE \u7684\u5DE5\u4F5C\u4ECB\u7ECD","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1658204347000,"contributors":[{"name":"deancn","email":"dean@airdb.com","commits":1}]},"filePathRelative":"sre.md"}');export{e as data};
